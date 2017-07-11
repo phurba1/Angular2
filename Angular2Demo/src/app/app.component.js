@@ -9,12 +9,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.name = 'Angular 2';
+        this.name = "Phurba";
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<h1>Hello {{name}}</h1>",
+            template: '<h1>Hello {{name}} </h1>'
         })
     ], AppComponent);
     return AppComponent;
